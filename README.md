@@ -1,6 +1,6 @@
 ## 项目介绍
 
-TEEMO TECH 官网
+Alturanova官网 用于智利申请渠道
 
 ## 技术栈
 
