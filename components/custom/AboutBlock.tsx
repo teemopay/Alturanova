@@ -11,8 +11,12 @@ export default function AboutBlock({
     <div className="w-full min-h-[300px] bg-[url('/img/about-3.png')] bg-cover bg-right bg-no-repeat rounded-[48px] pt-[53px] pl-[24px] md:pl-[78px] pb-[53px] pr-[24px] text-[#fff]">
       <div
         className={`${
-          type === "1" ? "md:max-w-[860px]" : "md:max-w-[657px]"
-        } font-blod text-[30px] leading-[32px] md:text-[48px] md:leading-[58px] mb-[16px]`}
+          type === "1"
+            ? "md:max-w-[860px]"
+            : type === "3"
+              ? "md:max-w-[485px]"
+              : "md:max-w-[657px]'"
+        } font-blod text-[30px] leading-[32px] md:text-[48px] md:leading-[58px] mb-[16px] font-bold`}
       >
         {title}
       </div>
@@ -22,7 +26,7 @@ export default function AboutBlock({
         </div>
         <a
           href="/About"
-          className="flex justify-center items-center bg-[#0077FF] relative block h-10 w-full max-w-[227px] rounded-full  font-medium text-white"
+          className="flex justify-center items-center bg-[#0077FF] relative  h-10 w-full max-w-[227px] rounded-full  font-medium text-white"
         >
           Contáctanos
         </a>

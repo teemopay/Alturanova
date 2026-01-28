@@ -47,17 +47,20 @@ export default function FooterPage() {
             </a>
 
             <a href="/" className="block text-[14px] text-[#fff] mb-[13px]">
-              Correo electrónico de la compañía: maya7177007@gmail.com
+              Correo electrónico: operador@alturanova.cl
             </a>
+            <div className="block text-[14px] text-[#fff] mb-[13px]">
+              Dirección: HUERFANOS 1178, OF 224, 226, 228, 230 NULL 226 SANTIAGO
+            </div>
             <div className="block text-[14px] text-[#fff]">
-              Horario de trabajo: 9:30am - 18:30pm
+              Horario de atención: 9:30 a. m. - 6:30 p. m.
             </div>
           </div>
           <div className="flex-1  grid-cols-2 sm:grid">
             {data.map((i, index) => {
               return (
                 <div key={index} className="mb-[40px] sm:mb-0">
-                  <div className="text-[16px] text-[#748EA6] mb-[24px]">
+                  <div className="text-[16px] text-white mb-[24px] font-bold">
                     {i.title}
                   </div>
                   {i.children.map((s, si) => {
@@ -76,11 +79,8 @@ export default function FooterPage() {
             })}
           </div>
         </div>
-        <div className="text-center text-[14px] text-[rgba(255,255,255,0.48)] mb-[10px]">
-          Copyright © 2025
-        </div>
-        <div className="text-center text-[14px] text-[rgba(255,255,255,0.48)]">
-          DESARROLLO DE SOFTWARE TEEMO TECH SPA
+        <div className="text-center text-[14px] text-[rgba(255,255,255,0.48)]  border-t border-[#2E408F] pt-[22px]">
+          Copyright © 2025 Alturanova
         </div>
       </div>
     </div>

@@ -34,8 +34,6 @@ export default function NavbarPage() {
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const pathname = usePathname();
-  console.log(pathname, "pathname==");
-
   return (
     <div
       className={`fixed top-0 left-0 z-40 w-full flex justify-center items-center h-[80px]  ${

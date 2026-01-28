@@ -10,17 +10,17 @@ export default function Home() {
     {
       id: 1,
       title: "SerpienteDigital CTO",
-      cnt: "“La capacidad de Teemo Tech para desarrollar aplicaciones es impresionante. Entienden a fondo las necesidades de nuestro negocio y las aplicaciones que desarrollaron no solo tienen un diseño atractivo, sino que también son muy fluidas en su funcionamiento y cumplen completamente con nuestras expectativas. Después del lanzamiento, los comentarios de los usuarios han sido muy positivos, y han contribuido significativamente a la expansión de nuestro negocio.”",
+      cnt: `“La colaboración con Alturanova ha transformado completamente nuestro modelo de operación digital. El sistema de gestión empresarial desarrollado a medida no solo es fácil de operar, sino que también logra la sincronización en tiempo real de los datos de todos los departamentos, reduciendo significativamente los costos de comunicación y mejorando la eficiencia laboral en un 40%. Su profunda comprensión de las necesidades del sector y su capacidad técnica profesional han hecho que nuestro camino de transformación digital sea excepcionalmente fluido.”`,
     },
     {
       id: 2,
       title: "NopalTech CMO",
-      cnt: "“En términos de publicidad, Teemo Tech es un experto absoluto. Las estrategias publicitarias que desarrollaron son precisas y específicas, y los resultados en plataformas como Google y Meta han sido notables, generando una gran cantidad de clientes potenciales y pedidos. El retorno de inversión ha superado con creces nuestras expectativas.”",
+      cnt: `“Las soluciones de marketing inteligente de Alturanova nos han traído resultados más allá de las expectativas. Gracias a la segmentación precisa de audiencia y la colocación integrada en múltiples canales, la visibilidad de nuestra marca ha aumentado tres veces en medio año, la tasa de conversión de clientes potenciales ha crecido un 50% en comparación con antes, y el retorno de la inversión está muy por encima del promedio de la industria. Son verdaderos socios profesionales que entienden tanto el marketing como la tecnología.”`,
     },
     {
       id: 3,
       title: "MayaSoft CEO",
-      cnt: "“Los servicios de consultoría en gestión empresarial de Teemo Tech han revitalizado nuestra empresa. Su equipo de consultores es altamente experimentado y puede diagnosticar rápida y precisamente los problemas que enfrentamos, ofreciendo soluciones prácticas. Con su ayuda, nuestra gestión empresarial se ha vuelto más organizada y nuestras operaciones más eficientes.”",
+      cnt: `“En términos de aplicación de tecnología AI, el equipo de Alturanova ha demostrado un alto nivel de competencia profesional. El sistema de análisis de comportamiento de usuarios que nos crearon nos ayudó a identificar con precisión las necesidades de los clientes, optimizar la dirección del diseño del producto, mejorar la satisfacción del producto en un 35% y lograr un crecimiento significativo en la tasa de retención de usuarios. Elegir a Alturanova ha sido una de nuestras decisiones más acertadas este año.”`,
     },
   ];
   const cards = [
@@ -59,22 +59,25 @@ export default function Home() {
   ];
   return (
     <div>
-      <div className="flex justify-center items-start w-full mt-[80px] min-h-[672px] md:max-h-[672px]  bg-[url('/img/home.png')] bg-cover bg-center bg-no-repeat px-[40px]">
+      <div className="flex justify-center items-start w-full mt-[80px] min-h-[672px] md:max-h-[750px]  bg-[url('/img/home.png')] bg-cover bg-center bg-no-repeat px-[40px]">
         <div className="w-full max-w-[1200px] pt-[130px] pb-[130px]">
           <div className="md:max-w-[684px] text-left text-[40px] md:text-[58px] text-[#222222] font-bold mb-[28px]">
             Servicios empresariales seguros y estables
           </div>
           <div className="text-[14px] text-[#333] max-w-[692px]">
-            Nos dedicamos a ayudar a las startups y empresas en crecimiento a
-            lograr la transformación digital. A través de tecnologías y
-            estrategias sobresalientes, aumentamos la competitividad y el
-            impacto en el mercado de su empresa. Proveemos soluciones de
-            software innovadoras y servicios comerciales profesionales para que
-            su empresa destaque en la era digital.
+            Proveedor de soluciones tecnológicas especializado en el mercado
+            chileno y latinoamericano, comprometido con ayudar a las empresas a
+            destacarse en la era de la economía digital mediante el desarrollo
+            de software personalizado, integración profunda de sistemas y
+            estrategias innovadoras de marketing digital. Nuestro equipo central
+            está formado por ingenieros de software experimentados, arquitectos
+            de TI y expertos en marketing, con el objetivo de convertirnos en
+            socios confiables y duraderos para las empresas, trabajando juntos
+            hacia un futuro mejor.
           </div>
           <a href="/About">
             <button className="mt-[112px]  bg-[#0077FF] relative  h-[48px] w-full max-w-[180px] rounded-full  font-medium text-white cursor-pointer">
-              Saber Más
+              Conoce Más
             </button>
           </a>
         </div>
@@ -89,15 +92,16 @@ export default function Home() {
             </div>
             <div className="flex-1">
               <div className="text-[26px] text-[#222222] mb-[30px] font-bold">
-                Desarrollo de Sitios Web y Aplicaciones
+                Desarrollo de software y aplicaciones informáticas
               </div>
               <div className="text-[14px] leading-[24px]">
-                Creamos sitios web exclusivos para startups, combinando diseño
-                creativo y tecnología avanzada para garantizar que su sitio web
-                sea visualmente atractivo, funcional y fácil de gestionar.
-                Nuestro equipo lo acompañará en todo el proceso, desde la
-                planificación hasta el lanzamiento, proporcionando soluciones
-                web personalizadas.
+                Nos especializamos en desarrollar software y aplicaciones
+                personalizadas de alto rendimiento y escalabilidad. Desde
+                sistemas de gestión empresarial (ERP, CRM) y aplicaciones
+                móviles multiplataforma hasta aplicaciones nativas en la nube,
+                adoptamos un modelo de desarrollo ágil para ofrecer soluciones
+                que no solo satisfacen las necesidades actuales, sino que
+                también se adaptan al crecimiento futuro.
               </div>
             </div>
           </div>
@@ -109,16 +113,16 @@ export default function Home() {
             </div>
             <div className="flex-1">
               <div className="text-[26px] text-[#222222] mb-[30px] font-bold">
-                Diseño de Sistemas SaaS
+                Asesoría en tecnologías de la información e integración de
+                sistemas  
               </div>
               <div className="text-[14px] leading-[24px]">
-                Diseñamos sistemas SaaS personalizados para satisfacer las
-                necesidades específicas de su empresa, mejorar la eficiencia
-                operativa, reducir costos y automatizar la gestión de procesos
-                empresariales. Con amplia experiencia y tecnología profesional,
-                creamos aplicaciones poderosas con excelente experiencia de
-                usuario, ayudándole a expandir su ámbito de negocio y aumentar
-                la satisfacción del cliente.
+                Ofrecemos servicios profesionales de consultoría estratégica en
+                TI y integración de sistemas sin interrupciones. Ayudamos a
+                evaluar arquitecturas tecnológicas, planificar rutas de
+                transformación digital e integrar diversos sistemas y
+                plataformas heterogéneas, eliminando islas de datos y
+                construyendo un ecosistema tecnológico colaborativo y eficiente.
               </div>
             </div>
           </div>
@@ -130,14 +134,18 @@ export default function Home() {
             </div>
             <div className="flex-1">
               <div className="text-[26px] text-[#222222] mb-[30px] font-bold">
-                Servicios de Publicidad
+                Soluciones de Marketing Inteligente y Medios
               </div>
               <div className="text-[14px] leading-[24px]">
-                Nuestro equipo de expertos en publicidad le ayudará a realizar
-                campañas publicitarias precisas en plataformas principales como
-                Google y Meta, desarrollar estrategias publicitarias efectivas,
-                aumentar la visibilidad de su marca, y mejorar el tráfico y la
-                tasa de conversión para alcanzar sus objetivos de marketing.
+                Integramos recursos publicitarios de calidad global, ofreciendo
+                servicios integrales de colocación de marketing que cubren
+                medios físicos offline (ascensores, centros comerciales, nodos
+                de transporte) y medios digitales online (plataformas sociales,
+                anuncios de video, promoción en motores de búsqueda, feeds de
+                contenido). La tecnología de segmentación precisa basada en
+                análisis de big data garantiza que el mensaje de la marca
+                alcance eficazmente a la audiencia objetivo y mejore la
+                eficiencia de conversión.
               </div>
             </div>
           </div>
@@ -149,17 +157,17 @@ export default function Home() {
             </div>
             <div className="flex-1">
               <div className="text-[26px] text-[#222222] mb-[30px] font-bold">
-                Consultoría en Gestión Empresarial
+                Aplicaciones de inteligencia artificial y big data
               </div>
               <div className="text-[14px] leading-[24px]">
-                Le ofrecemos servicios profesionales de consultoría en gestión
-                empresarial, que incluyen planificación estratégica, gestión
-                operativa, marketing, entre otros. Nuestro equipo de consultores
-                cuenta con amplia experiencia en la industria y conocimientos
-                especializados, capaces de proporcionar recomendaciones y
-                soluciones prácticas para ayudarle a gestionar su empresa de
-                manera más eficaz, ampliar su visión de mercado y lograr un
-                desarrollo sostenible.
+                Centrado en la implementación de tecnologías clave de IA y big
+                data, ofrecemos servicios integrales que abarcan la
+                recopilación, análisis, modelado y aplicación de datos.
+                Incluimos soluciones como predicción inteligente, análisis del
+                comportamiento del usuario, operaciones automatizadas y apoyo a
+                decisiones inteligentes, ayudando a las empresas a extraer el
+                valor de sus datos y mejorar la eficiencia operativa y la
+                cientificidad de sus decisiones.
               </div>
             </div>
           </div>
@@ -211,7 +219,7 @@ export default function Home() {
           <HoverEffect className="mb-[186px]" items={cards} />
           <div className="mb-[160px]">
             <AboutBlock
-              type="2"
+              type="3"
               title="Somos Su Socio Digital Integral"
               sub="Desde el desarrollo de sitios web y aplicaciones hasta estrategias publicitarias precisas y consultoría empresarial profesional, ayudamos a que su empresa prospere en la era digital."
             />

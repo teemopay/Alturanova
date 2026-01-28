@@ -11,7 +11,7 @@ export async function POST(request: Request) {
     if (!message) {
       return NextResponse.json(
         { error: "Message cannot be empty" },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
@@ -62,7 +62,7 @@ export async function POST(request: Request) {
         content: {
           post: {
             zh_cn: {
-              title: "【TEEMO TECH】官网留言:",
+              title: "【Alturanova】官网留言:",
               content: params,
             },
           },
@@ -76,13 +76,13 @@ export async function POST(request: Request) {
       const errorData = await response.json();
       return NextResponse.json(
         { error: errorData },
-        { status: response.status }
+        { status: response.status },
       );
     }
   } catch (error) {
     return NextResponse.json(
       { error: "Internal server error" },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }
